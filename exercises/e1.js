@@ -15,7 +15,9 @@
 
 // Your code goes here
 
-
+function logMessage() {
+  console.log('Hello, World!');
+}
 
 
 /**
@@ -31,7 +33,12 @@
 
 // Your code goes here...
 
+function logMyMessage(msg) {
+  console.log(msg);
+}
 
+const message = logMyMessage('My message');
+console.log(message);
 
 
 /**
@@ -46,7 +53,12 @@
 
 // Your code goes here...
 
+function logMessageWithMyName (name) {
+  console.log('My name is ' + name + "!");
+}
 
+const myName = logMessageWithMyName('Andrey');
+console.log(myName);
 
 
 /**
@@ -62,7 +74,12 @@
 
 // Your code goes here...
 
+function logMyInfo (name, age) {
+  console.log('My name is ' + name + ". I am " + age + " years old!");
+}
 
+const infoMessage = logMyInfo('Andrey', 18);
+console.log(infoMessage);
 
 
 // === TEST YOURSELF ===
